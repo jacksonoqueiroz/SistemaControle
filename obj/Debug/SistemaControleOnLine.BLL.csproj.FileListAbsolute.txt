@@ -1,0 +1,9 @@
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\bin\Debug\SistemaControleOnLine.BLL.dll
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\bin\Debug\SistemaControleOnLine.BLL.pdb
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\obj\Debug\SistemaControleOnLine.BLL.csprojResolveAssemblyReference.cache
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\obj\Debug\SistemaControleOnLine.BLL.dll
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\obj\Debug\SistemaControleOnLine.BLL.pdb
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\bin\Debug\SistemaControleOnLine.DAL.dll
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\bin\Debug\SistemaControleOnLine.Entities.dll
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\bin\Debug\SistemaControleOnLine.DAL.pdb
+C:\Users\pc\OneDrive\Desenvolvimentos\Projetos_ASPNET\SistemaControleOnLine\SistemaControleOnLine.BLL\bin\Debug\SistemaControleOnLine.Entities.pdb
