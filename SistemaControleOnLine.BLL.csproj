@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C59BC75-3F9F-496B-90AD-C19E1F1A4044}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaControleOnLine.BLL</RootNamespace>
+    <AssemblyName>SistemaControleOnLine.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlunosBo.cs" />
+    <Compile Include="Autenticacao\LoginBo.cs" />
+    <Compile Include="Exceptions\AlunoNaoCadastradoException.cs" />
+    <Compile Include="Exceptions\AlunoNaoValidadoException.cs" />
+    <Compile Include="Exceptions\AlunoNaoEncontradoException.cs" />
+    <Compile Include="Exceptions\AlunoNaoAtualizadoException.cs" />
+    <Compile Include="Exceptions\TurmaNaoEncontradoException.cs" />
+    <Compile Include="Exceptions\FormacaoNaoEncontradoException.cs" />
+    <Compile Include="Exceptions\TurmaNaoValidadoException.cs" />
+    <Compile Include="Exceptions\TurmaNaoCadastradoException.cs" />
+    <Compile Include="Exceptions\UsuarioNaoCadastradoException.cs" />
+    <Compile Include="FormaGrupoBo.cs" />
+    <Compile Include="InstrumentoBo.cs" />
+    <Compile Include="InstrutorBo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PainelControleBo.cs" />
+    <Compile Include="TurmasBo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaControleOnLine.DAL\SistemaControleOnLine.DAL.csproj">
+      <Project>{bbc79376-0dd2-46b3-a330-3d905c7ff0a6}</Project>
+      <Name>SistemaControleOnLine.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SistemaControleOnLine.Entities\SistemaControleOnLine.Entities.csproj">
+      <Project>{663c5aca-25e6-48d5-814c-995ad2e1ec42}</Project>
+      <Name>SistemaControleOnLine.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
